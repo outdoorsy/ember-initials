@@ -72,12 +72,12 @@
     "ember-cli-babel": "6.10.0",
     "object-hash": "1.2.0"
   },
-  "fastbootDependencies": [
-    "blueimp-md5",
-    "object-hash"
-  ],
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "https://github.com/Exelord/ember-initials/"
+    "demoURL": "https://github.com/Exelord/ember-initials/",
+    "fastbootDependencies": [
+      "blueimp-md5",
+      "object-hash"
+    ]
   }
 }

@@ -18,6 +18,12 @@ module.exports = {
     app.import('vendor/shims/object-hash.js', { type: 'vendor' });
   },
 
+  updateFastBootManifest(manifest) {
+    manifest.vendorFiles.push('vendor/ember-initials/object_hash.js');
+    manifest.vendorFiles.push('vendor/shims/object-hash.js');
+    return manifest;
+  },
+
   md5Path() {
     return path.join(this.app.project.nodeModulesPath, 'blueimp-md5', 'js');
   },

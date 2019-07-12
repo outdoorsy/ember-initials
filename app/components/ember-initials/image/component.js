@@ -1,1 +1,1 @@
-export { default } from 'ember-initials/components/image';
+export { default } from '@outdoorsyco/ember-initials/components/image';

@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import Initials from 'ember-initials/utils/initials';
+import Initials from '@outdoorsyco/ember-initials/utils/initials';
 
 module('Unit | Utils | Initials');
 

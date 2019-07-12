@@ -1,5 +1,5 @@
 import Mixin from '@ember/object/mixin';
-import Avatar from 'ember-initials/mixins/avatar';
+import Avatar from '@outdoorsyco/ember-initials/mixins/avatar';
 import { reads, or } from '@ember/object/computed';
 
 export default Mixin.create(Avatar, {

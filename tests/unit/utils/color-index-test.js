@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import ColorIndex from 'ember-initials/utils/color-index';
+import ColorIndex from '@outdoorsyco/ember-initials/utils/color-index';
 
 module('Unit | Utils | Color Index');
 

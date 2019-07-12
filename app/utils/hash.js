@@ -1,1 +1,1 @@
-export { default } from 'ember-initials/utils/hash';
+export { default } from '@outdoorsyco/ember-initials/utils/hash';

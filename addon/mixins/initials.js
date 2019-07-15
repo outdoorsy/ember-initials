@@ -1,10 +1,10 @@
 import Mixin from '@ember/object/mixin';
-import Avatar from 'ember-initials/mixins/avatar';
+import Avatar from '@outdoorsyco/ember-initials/mixins/avatar';
 import { assign } from '@ember/polyfills';
 import { observer, computed } from '@ember/object';
 import { reads } from '@ember/object/computed';
-import ColorIndex from 'ember-initials/utils/color-index';
-import Initials from 'ember-initials/utils/initials';
+import ColorIndex from '@outdoorsyco/ember-initials/utils/color-index';
+import Initials from '@outdoorsyco/ember-initials/utils/initials';
 
 export default Mixin.create(Avatar, {
   image: null,

@@ -1,1 +1,1 @@
-export { default } from 'ember-initials/services/ember-initials-store';
+export { default } from '@outdoorsyco/ember-initials/services/ember-initials-store';

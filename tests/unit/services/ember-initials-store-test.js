@@ -1,5 +1,5 @@
 import { moduleFor, test } from 'ember-qunit';
-import Base from 'ember-initials/utils/generators/base';
+import Base from '@outdoorsyco/ember-initials/utils/generators/base';
 
 moduleFor('service:ember-initials-store', 'Unit | Service | initials store');
 
